@@ -2,5 +2,7 @@ FROM andrewosh/binder-base
 
 MAINTAINER Doug Blank <doug.blank@gmail.com>
 
-RUN pip3 install --upgrade metakernel
-RUN pip3 install --upgrade calysto-scheme
+RUN /bin/bash -c "source activate python3"
+
+RUN pip install --upgrade metakernel
+RUN pip install --upgrade calysto-scheme
