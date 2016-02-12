@@ -2,6 +2,6 @@ FROM andrewosh/binder-base
 
 MAINTAINER Doug Blank <doug.blank@gmail.com>
 
-RUN pip install metakernel --user
-RUN pip install calysto --user
-RUN pip install calysto-scheme --user
+RUN /home/main/anaconda2/bin/pip install metakernel
+RUN /home/main/anaconda2/bin/pip install calysto
+RUN /home/main/anaconda2/bin/pip install calysto-scheme
