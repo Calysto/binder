@@ -6,4 +6,4 @@ RUN /bin/bash -c "source activate python3"
 
 RUN pip install metakernel
 RUN pip install calysto
-RUN pip install calysto-scheme
+RUN pip install calysto-scheme --user
