@@ -4,5 +4,5 @@ MAINTAINER Doug Blank <doug.blank@gmail.com>
 
 RUN /bin/bash -c "source activate python3"
 
-RUN conda install metakernel
-RUN conda install calysto-scheme
+RUN pip install metakernel --upgrade
+RUN pip install calysto-scheme --upgrade
